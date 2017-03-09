@@ -1,0 +1,39 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "express json react bootstrap ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "json",
+    "react",
+    "bootstrap",
+    "es6"
+  ],
+  "author": "alice",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "items": [
+    {
+      "name": "react",
+      "type": "js"
+    },
+    {
+      "name": "nodejs",
+      "type": "js"
+    },
+    {
+      "name": "math",
+      "type": "math"
+    },
+    {
+      "name": "asp.net",
+      "type": "c#"
+    }
+  ]
+}

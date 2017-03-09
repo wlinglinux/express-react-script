@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "express json react bootstrap ",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "babel-node server.js",
+    "client": "babel-node start-client.js",
+    "dev": "echo \"This command has been deprecated. Use 'npm start'\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "express",
+    "json",
+    "react",
+    "bootstrap",
+    "es6"
+  ],
+  "author": "alice",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0"
+  }
+}
