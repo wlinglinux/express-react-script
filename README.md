@@ -1,0 +1,3 @@
+# express-react-script
+express-react-script这个例子主要是按照react-script的官方文档添加了scss支持，bootstrap组件和发布生成优化seo静态页面，还使用了proxy属性，
+使得在react端可以使用fetch获取express的json数据。
